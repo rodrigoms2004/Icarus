@@ -6,25 +6,68 @@ Lançamento de balão meteorológico para filmagem da curvatura da Terra
 
 800g transportando carga de 1.5kg com eficiência, com máximo de 6 m³ de gás hélio
 
+Diâmetro de lançamento: de 1.8 a 2.4 metros
+Diâmetro de estouro: aproximadamente 7 metros
+Faixa de altitude de estouro: entre 26 km e 32 km
+
 [Balão Meteorológico de Grande Altitude - 800g](http://www.mundoclima.com.br/produtos/balao-meteorologico-de-grande-altitude-800g/)
 
-```
-p1*v1 = p2*v2
-```
 
 ### Pressão atmosférica pela altitude
 
-![alt text](img/p_atmosferica.jpeg)
+Calculadora de pressão atmosférica
+[Atm Calculator](https://www.digitaldutch.com/atmoscalc/)
 
-| Altitude (km) | Pressão Atmosférica (mm Hg) |
-| --- | --- |
-| 0 | 760 |
-| 1 | 600 |
-| 2 | 480 |
-| 4 | 300 |
-| 6 | 170 |
-| 8 | 120 |
-| 10 | 100 |
+
+### Calculo da pressão
+
+Lançamento em São Paulo, SP 760 metros do nível do mar, 92.5 KPa
+
+
+Pela lei de Boyle-Mariotte
+```
+(p1*v1)/t1 = (p2*v2)/t2
+```
+
+*Condições de lançamento*
+```
+p1 = 92.5 kPa
+v1 = 3 m³ ou 3000 litros
+t1 = 25 C = 298.15 K
+```
+
+*Condições de estouro estimando 26 km de altitude*
+```
+p2 = 2.153 kPa
+v2 = ?
+t2 = -50.5 = 222.65 K
+
+(p1*v1)/t1 = (p2*v2)/t2
+
+v2 = (p1*v1*t2) / (t1 * p2)
+v2 = (92.5 kPa * 3000 L * 222.65 K) / (298.15 K * 2.153 kPa)
+v2 = (92.5 kPa * 3000 L) / 2.153 KPa
+v2 = 96251 L ~= 96.25 m³
+```
+
+
+*Condições de estouro estimando 32 km de altitude*
+```
+p2 = 0.868 kPa
+v2 = ?
+t2 = -44.5 = 228.65 K
+
+(p1*v1)/t1 = (p2*v2)/t2
+
+v2 = (p1*v1*t2) / (t1 * p2)
+v2 = (92.5 kPa * 3000 L * 228.65 K) / (298.15 K * 0.868 kPa)
+(92.5 * 3000 * 228.65) / (298.15 * 0.868)
+v2 =p1*v1) / p2
+v2 = (92.5 kPa * 3000 L) / 0.868 KPa
+v2 = 245176.95 L ~= 245.176 m³
+```
+
+
 
 
 ### Links úteis
