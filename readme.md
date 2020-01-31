@@ -2,6 +2,12 @@
 
 Lançamento de balão meteorológico para filmagem da curvatura da Terra
 
+### Tutorial
+
+[Tutorial](https://www.stratoflights.com/en/tutorial/weather-balloon-tutorial/)
+
+[Calculadora de gás Hélio](https://www.stratoflights.com/en/tutorial/helium-calculator/)
+
 ### Balão escolhido
 
 800g transportando carga de 1.5kg com eficiência, com máximo de 6 m³ de gás hélio
