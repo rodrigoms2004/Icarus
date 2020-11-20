@@ -98,3 +98,10 @@ Conversão milibar para mmHg 1 mbar = 0.750062 mmHg
 [Lançamento de balão meteorológico à estratosfera](https://garoa.net.br/wiki/Lan%C3%A7amento_de_bal%C3%A3o_meteorol%C3%B3gico_%C3%A0_estratosfera)
 
 [Balão Meteorológico de Grande Altitude - 600g](http://www.mundoclima.com.br/produtos/balao-meteorologico-de-grande-altitude-600g)
+
+[Balloon Trajectory Forecasts](http://weather.uwyo.edu/upperair/balloon_traj.html)
+
+[Equipe HAB Mauá lança balão meteorológico no espaço](https://blog.maua.br/2018/05/equipe-hab-imt-lanca-balao-meteorologico-no-espaco/)
+
+
+[Locação de gás hélio 20L (3m³) para +/- 300 balões de 09 polegadas](https://saopaulooxigenio.com.br/produto/locacao-de-gas-helio-20l-3m%c2%b3-para-300-baloes-de-09-polegadas/)
